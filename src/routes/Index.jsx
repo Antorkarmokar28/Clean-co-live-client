@@ -6,12 +6,17 @@ import Login from "../pages/login/Login";
 import Register from "../pages/Register/Register";
 import AdminLayout from "../components/layout/AdminLayout";
 import Addservice from "../pages/addService/Addservice";
+import Home from "../pages/Home/Home"
 
 const routes = createBrowserRouter([
     {
         path: '/',
         element: <App />,
         children: [
+            {
+                index: true,
+                element: <Home />
+            },
             {
                 path: 'about',
                 element: <About />,

@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
     return (
         <div className="navbar bg-base-300 w-full">
-            <div className="w-[1140px] mx-auto">
+            <div className="w-[1140px] px-[25px] mx-auto">
                 <div className="flex-none lg:hidden">
                     <label htmlFor="my-drawer-3" aria-label="open sidebar" className="btn btn-square btn-ghost">
                         <svg
@@ -18,7 +18,7 @@ const Navbar = () => {
                         </svg>
                     </label>
                 </div>
-                <div className="mx-2 flex-1 px-2">Navbar Title</div>
+                <div className="mx-2 flex-1 px-2 text-lg font-bold">Cleanco <span className="text-primary">Live Client</span></div>
                 <div className="hidden flex-none lg:block">
                     <ul className="menu menu-horizontal gap-6">
                         {/* Navbar menu content here */}
